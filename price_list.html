@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="..//Сайт Новые технологии/CSS/price_list.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <title>Новые технологии</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header_container">
+                <div class="header_inf">
+                    <div class="Logo">
+                        <div class="logo__img"></div>
+                        <div class="logo_inf">
+                            <h4>Строительство</h4>
+                            <h4>Проектирование</h4>
+                            <h4>Инженерные системы</h4>
+                        </div>
+                    </div>
+                    <div class="menu_inf dn">
+                        <div class="phone">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <div class="telephone">
+                                <span>Наш телефон:</span>
+                                <h3>(831)424-95-24</h3>
+                            </div>
+                        </div>
+                        <button class="back_call">Обратный звонок</button>
+                        <form class="header_form" method="POST">
+                            <input id="search" name="search" type="search" placeholder="поиск по сайту"><a href="#"><i
+                                class="fa fa-search" aria-hidden="true" onClick="dolt();"></i></a>
+                        </form>
+                    </div>
+                    <button class="nav-toggle" id="nav_toggle" type="button">
+                        <span class="nav-toggle__item">Menu</span>
+                    </button>
+                </div>
+                <hr class="hr_menu dn">
+                <div class="menu dn">
+                    <a class="m main_page" href="..//Сайт Новые технологии/main.html">О компании</a>
+                    <a href="..//Сайт Новые технологии/services.html" class="m services">Услуги</a>
+                    <a href="..//Сайт Новые технологии/price_list.html" class="price_list">Прайс-лист</a>
+                    <a href="..//Сайт Новые технологии/contacts.html" class="m contacts">Контакты</a>
+                    <a href="..//Сайт Новые технологии/reviews.html" class="m reviews">Отзывы о нас</a>
+                    <a href="..//Сайт Новые технологии/write.html" class="m write">Напишите нам</a>
+                </div>
+            </div>
+        </div>
+        <div class="window__menu" id="window-menu">
+            <hr class="hr_menu">
+            <div class="menu">
+                <a class="m main_page" href="..//Сайт Новые технологии/main.html">О компании</a>
+                <a href="..//Сайт Новые технологии/services.html" class="m services">Услуги</a>
+                <a href="..//Сайт Новые технологии/price_list.html" class="price_list">Прайс-лист</a>
+                <a href="..//Сайт Новые технологии/contacts.html" class="m contacts">Контакты</a>
+                <a href="..//Сайт Новые технологии/reviews.html" class="m reviews">Отзывы о нас</a>
+                <a href="..//Сайт Новые технологии/write.html" class="m write">Напишите нам</a>
+            </div>
+            <div class="menu_inf">
+                <div class="phone">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <div class="telephone">
+                        <span>Наш телефон:</span>
+                        <h3>(831)424-95-24</h3>
+                    </div>
+                </div>
+                <button class="back_call">Обратный звонок</button>
+                <form class="header_form" method="POST">
+                    <input id="search" name="search" type="search" placeholder="поиск по сайту"><a href="#"><i class="fa fa-search"
+                            aria-hidden="true" onClick="dolt();"></i></a>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- Main container -->
+    <main>
+        <div class="container">
+            <div class="main_container">
+                <table>
+                    <tr>
+                        <th class="column_name">Наименование работ
+                        </th>
+                        <th class="column_name">Един.изм.</th>
+                        <th class="column_name">Стоимость</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Стены</td>
+                    </tr>
+                    <tr>
+                        <th>Грунтовка стен</th>
+                        <th class="meansurement">м<sup>2</sup></th>
+                        <th class="price">50</th>
+                    </tr>
+                    <tr>
+                        <th>Грунтовка откосов</th>
+                        <th class="meansurement">м пог</th>
+                        <th class="price">60</th>
+                    </tr>
+                    <tr>
+                        <th>Шпаклёвка стен (2 слоя)</th>
+                        <th class="meansurement">м<sup>2</sup></th>
+                        <th class="price">от 350</th>
+                    </tr>
+                    <tr>
+                        <th>Штукатурка стен</th>
+                        <th class="meansurement">м<sup>2</sup></th>
+                        <th class="price">от 500</th>
+                    </tr>
+                    <tr>
+                        <th>Покраска стен (обои) водоэмульсионной/дисперсионной краской на 2 раза</th>
+                        <th class="meansurement">м<sup>2</sup></th>
+                        <th class="price">400</th>
+                    </tr>
+                    <tr>
+                        <th>Покраска откосов</th>
+                        <th class="meansurement">м пог</th>
+                        <th class="price">400</th>
+                    </tr>
+                    <tr>
+                        <th>Декоративное покрытие</th>
+                        <th class="meansurement">м<sup>2</sup></th>
+                        <th class="price">от 800</th>
+                    </tr>
+                    <tr>
+                        <th>Поклейка обоев</th>
+                        <th class="meansurement">м<sup>2</sup></th>
+                        <th class="price">от 250</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Потолок</td>
+                    </tr>
+                    <tr>
+                        <th>Грунтовка</th>
+                        <th class="meansurement">м<sup>2</sup></th>
+                        <th class="price">60</th>
+                    </tr>
+                    <tr>
+                        <th>Шпаклёвка потолка</th>
+                        <th class="meansurement">м<sup>2</sup></th>
+                        <th class="price">от 400</th>
+                    </tr>
+                    <tr>
+                        <th>Покраска потолка</th>
+                        <th class="meansurement">м<sup>2</sup></th>
+                        <th class="price">от 450</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer_container">
+                <div class="footer_menu">
+                    <a href="#">О компании</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Прайс-лист</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Отзывы о нас</a>
+                    <a href="#">Напишите нам</a>
+                </div>
+                <div class="footer_phone">
+                    <div class="footer_button">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>+7(831)424-95-24</span>
+                    </div>
+                    <button class="call">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="..//Сайт Новые технологии/JS/script.js"></script>
+</body>
+
+</html>
